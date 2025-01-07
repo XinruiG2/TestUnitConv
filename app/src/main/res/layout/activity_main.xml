@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Unit Converter"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_marginBottom="20dp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rowCount="2"
+        android:columnCount="2"
+        android:layout_margin="20dp" >
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:id="@+id/btnLen"
+            android:layout_margin="8dp"
+            android:text="Length"
+            android:padding="20dp"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:id="@+id/btnVol"
+            android:layout_margin="8dp"
+            android:text="Volume"
+            android:padding="20dp"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:id="@+id/btnWeight"
+            android:layout_margin="8dp"
+            android:text="Weight"
+            android:padding="20dp"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:id="@+id/btnTemp"
+            android:layout_margin="8dp"
+            android:text="Temp"
+            android:padding="20dp"/>
+
+    </GridLayout>
+
+
+</LinearLayout>
